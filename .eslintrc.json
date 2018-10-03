@@ -15,7 +15,8 @@
                 "ArrowFunctionExpression": false,
                 "FunctionExpression": false
             }
-        }]
+        }],
+        "max-len": ["warn", 120]
     }
    
 }

@@ -1,0 +1,12 @@
+.weather-widget {
+    width: 300px;
+    margin: auto;
+}
+
+.accordion-item {
+    border: 1px solid #000000;
+}
+
+.accordion-item-title {
+    font-weight: bold;
+}
