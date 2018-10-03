@@ -8,5 +8,15 @@
 }
 
 .accordion-item-title {
+    cursor: pointer;
     font-weight: bold;
+}
+
+.hour-title {
+    margin-right: 20px;
+}
+
+.hour {
+    display: flex;
+    align-items: center;
 }

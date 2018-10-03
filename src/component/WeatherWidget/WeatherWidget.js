@@ -77,7 +77,16 @@ class WeatherWidget extends Component {
   }
 
   renderHour(hour) {
-    return (<div key={hour.title}>{hour.title}</div>)
+    return (
+      <div className="hour" key={hour.title}>
+        <span className="hour-title">{hour.title}</span>
+        <span className="hour-symbol"><img src={hour.iconUrl}></img></span>
+        <span className="hour-temp">
+          <div className="hour-max">{hour.maxTempDegrees}</div>
+          <div className="hour-min">{hour.minTempDegrees}</div>
+        </span>
+      </div>
+    )
   }
 }
 
